@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import Heading from './components/Heading';
-import AddStudent from './components/AddStudent';
-import StudentSummary from './components/StudentSummary';
-import AllDetais from './components/AllDetails';
+import Heading from './Components/Heading';
+import AddStudent from './Components/AddStudent';
+import StudentSummary from './Components/StudentSummary';
+import AllDetais from './Components/AllDetails';
 function App(){
   const initialStudents = [
     {id:1,name:"Aman",score:78},

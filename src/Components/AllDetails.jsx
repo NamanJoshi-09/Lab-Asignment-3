@@ -16,7 +16,7 @@ function AllDetais({students,updateScore,}){
         <div className="w-200">
             <div className="flex border border-[#256594] p-2 justify-between items-center">
                 <span className="text-[#256594] text-xs">STUDENT RECORDS</span>
-                <span className="text-[#256594] text-xs">4 Enteries</span>
+                <span className="text-[#256594] text-xs">{students.length} Enteries</span>
             </div>
             <table className="w-full border border-[#256594] border-collapse">
                 <thead>
