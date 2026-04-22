@@ -8,8 +8,8 @@ function App() {
 
   const initialStudents = [
     {id:1,name:"Naman",score:78},
-    {id:2,name:"Pawan",score:98},
-    {id:3,name:"Dhruv",score:9}
+    {id:2,name:"ABC",score:98},
+    {id:3,name:"DKL",score:9}
   ]
 
   const [students,setStudents] = useState(initialStudents)
