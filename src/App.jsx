@@ -7,9 +7,9 @@ import AllDetails from './components/AllDetails'
 function App() {
 
   const initialStudents = [
-    {id:1,name:"Aman",score:78},
-    {id:2,name:"Alex",score:58},
-    {id:3,name:"Joy",score:39}
+    {id:1,name:"Naman",score:78},
+    {id:2,name:"Addi",score:58},
+    {id:3,name:"Dhruv",score:39}
   ]
 
   const [students,setStudents] = useState(initialStudents)
