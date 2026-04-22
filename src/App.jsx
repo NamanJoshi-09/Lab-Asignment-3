@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Heading from './Components/Heading'
 import AddStudent from './Components/AddStudent'
-import StudentsSummary from './Components/StudentSummary'
+import StudentsSummary from './Components/StudentsSummary'
 import AllDetails from './Components/AllDetails'
 
 function App() {
