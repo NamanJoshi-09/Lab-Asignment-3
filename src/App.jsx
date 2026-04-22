@@ -20,10 +20,6 @@ function App() {
     setStudents(updated)
   }
 
-
- 
-
-
   return (
     <div className='w-full flex flex-col items-center gap-10 p-20 h-full bg-gray-900'>
     <Heading/>
