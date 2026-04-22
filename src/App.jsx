@@ -14,11 +14,12 @@ function App() {
 
   const [students,setStudents] = useState(initialStudents)
 
-  const updateScore = (index,newScore)=>{
-    const updated = students.map(s=>s.id === index+1 ? {...s,score:Number(newScore)}:s)
-
-    setStudents(updated)
-  }
+  const updateScore = (index, newScore) => {
+  const updated = students.map((s, i) =>
+    i === index ? { ...s, score: Number(newScore) } : s
+  )
+  setStudents(updated)
+}
 
 
  
