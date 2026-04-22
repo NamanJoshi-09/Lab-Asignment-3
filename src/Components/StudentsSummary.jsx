@@ -33,7 +33,7 @@ const total = students.length
         <div className="flex flex-col  flex-1 p-2 relative inline-block group cursor-pointer hover:bg-[#00FFE0]/10">
             <div className="flex flex-col">
                  <span className="text-[#256594]">AVG SCORE</span>
-            <span className="text-[#00FFE0] text-5xl font-bold">AVG SCORE </span>
+            <span className="text-[#00FFE0] text-5xl font-bold">{avgScore}</span>
             </div>
               <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00FFE0] transition-all duration-300 group-hover:w-full"></span>
 
