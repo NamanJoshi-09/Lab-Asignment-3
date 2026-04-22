@@ -1,7 +1,7 @@
 
 
 function StudentsSummary({students}) {
-  const total = students.length
+const total = students.length
 
     const passed = students.filter(student => student.score >= 40).length
 
